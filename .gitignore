@@ -1,16 +1,27 @@
-__pycache__/
-.DS_Store
-.idea/Figma2Py.iml
-.idea/inspectionProfiles/profiles_settings.xml
-.idea/modules.xml
-.idea/vcs.xml
-.idea/misc.xml
-.idea/workspace.xml
-.vscode
-build/
-dist/
-env
-resources/
-venv/
-*.egg-info/
-*.spec
+#__pycache__/
+#.DS_Store
+#.idea/Figma2Py.iml
+#.idea/inspectionProfiles/profiles_settings.xml
+#.idea/modules.xml
+#.idea/vcs.xml
+#.idea/misc.xml
+#.idea/workspace.xml
+#.vscode
+#build/
+#dist/
+#env
+#resources/
+#venv/
+#*.egg-info/
+#*.spec
+
+
+# 1. Ignore everything
+*
+
+# 2. But DO NOT ignore (whitelist) these
+!build/
+!.idea/
+
+# 3. Keep this file itself
+!.gitignore
